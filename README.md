@@ -16,7 +16,7 @@
   
 ## Usage
 
-MTPParser has only one method. Here is how to use it to parse your .mtl file:
+MTLParser has only one method. Here is how to use it to parse your .mtl file:
 
 ```swift
 guard let fileURL = Bundle.main.url(forResource: "test", withExtension: "mtl") else { return }
